@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import Imagen from './components/Imagen'
 
 function App() {
 
   return (
-    <div className="App">
-      <h1 className="text-4xl">Desde app</h1>
+    <div className="container mx-auto mt-28 md:flex justify-center">
+      <Imagen />
     </div>
   )
 }
